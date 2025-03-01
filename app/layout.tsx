@@ -30,9 +30,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={myFont.className}>
-      <body>
-        <h1 className="text-4xl font-bold">Yomama</h1>
+    <html lang="en" >
+      <body className={myFont.className}>
+        <h1 className="text-4xl font-bold pb-4">Yomama</h1>
         {children}
       </body>
     </html>
